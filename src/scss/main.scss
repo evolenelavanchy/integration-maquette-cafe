@@ -1,0 +1,156 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+@import "bootstrap/scss/bootstrap-grid";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "Amulya";
+  src: url("../font/Amulya-Medium.woff2") format("woff2"),
+    url("../font/Amulya-Medium.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Melodrama";
+  src: url("../font/Melodrama-Medium.woff2") format("woff2"),
+    url("../font/Melodrama-Medium.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Melodrama";
+  src: url("../font/Melodrama-Bold.woff2") format("woff2"),
+    url("../font/Melodrama-Bold.woff") format("woff");
+  font-weight: 700;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background-color: #cec2e0;
+  color: white;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+h2 {
+  font-family: "Melodrama";
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.texte-1 {
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  font-family: "Amulya";
+  font-weight: 500;
+}
+
+.boutton-menu {
+  width: 40px;
+}
+
+h2 {
+  padding-top: 120px;
+}
+.horaire {
+  width: 50px;
+  font-size: 30px;
+  font-family: Amulya;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.horaire img {
+  padding-bottom: 30px;
+}
+.horaire-2 {
+  font-size: 30px;
+  font-family: Amulya;
+  padding-top: 125px;
+  line-height: 40px;
+}
+
+.phone {
+  width: 50px;
+  font-size: 30px;
+  font-family: Amulya;
+  padding-bottom: 80px;
+}
+
+.phone img {
+  padding-bottom: 30px;
+}
+
+.instagram {
+  width: 50px;
+  font-size: 30px;
+  font-family: Amulya;
+}
+
+.instagram img {
+  padding-bottom: 30px;
+}
+
+.mail {
+  width: 50px;
+  font-size: 30px;
+  font-family: Amulya;
+}
+
+.mail img {
+  padding-bottom: 30px;
+}
+
+.lieu {
+  width: 50px;
+  font-size: 30px;
+  font-family: Amulya;
+}
+
+.lieu img {
+  padding-bottom: 30px;
+}
